@@ -1,0 +1,93 @@
+#overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    object-fit: cover; height: 100%;position: absolute;left: 0;top: 0;
+    
+}
+#home{ position: relative;
+    width: 100%;height: 80vh;
+}
+ #bg{
+    position: absolute;left: 0;top: 0;width: 100%;height: 100%;object-fit: cover;
+    
+ }
+ #p4{
+    border-radius: 250px  250px 0 0 ;
+    
+    box-shadow: 0 0 10px black;
+ }
+ 
+ #bg{
+   
+   width: 100%;height: 80vh;
+}
+#box{
+   width: 50px;height: 50px;background-color:saddlebrown;margin: 80%; border-radius: 2rem; box-shadow: 10px 10px 12px grey;
+}
+#carosol{
+   width: 110vw; 
+overflow-x: auto;
+}
+#inner-carosol{
+   display: flex; 
+   
+}
+#inner-carosol img{
+ border-radius: 70px;
+ filter: drop-shadow(5px 5px 10px gray);
+opacity: 0.5 ;
+
+
+}
+#inner-carosol img:hover{
+ opacity: 1;
+}
+#car::-webkit-scrollbar{
+   height: 0;
+}
+#button {
+   background: firebrick;
+   font-family: inherit;
+   padding: 0.6em 1.3em;
+   font-weight: 900;
+   font-size: 18px;
+   border: 3px solid black;
+   border-radius: 0.4em;
+   box-shadow: 0.1em 0.1em black;
+   
+ }
+ 
+ #button:hover {
+   transform: translate(-0.05em, -0.05em);
+   box-shadow: 0.15em 0.15em black;
+ }
+ 
+ #button:active {
+   transform: translate(0.05em, 0.05em);
+   box-shadow: 0.05em 0.05em black;
+ }
+ 
+ #button1 {
+   background: lightgoldenrodyellow;
+   font-family: inherit;
+   padding: 0.6em 1.3em;
+   font-weight: 900;
+   font-size: 18px;
+   border: 3px solid black;
+   border-radius: 0.4em;
+   box-shadow: 0.1em 0.1em black;
+   
+ }
+ 
+ #button1:hover {
+   transform: translate(-0.05em, -0.05em);
+   box-shadow: 0.15em 0.15em black;
+ }
+ 
+ #button1:active {
+   transform: translate(0.05em, 0.05em);
+   box-shadow: 0.05em 0.05em black;
+ }
+ 
+#cn{height: 100vh;}
+#bx{width: 90%;height: 90%;}
